@@ -3614,6 +3614,30 @@
       "desc": "- 最大値 : 9\n- 被ダメージ時、数値3につき沈潜威力1を得る (1ターンにつき1回)\n- ターン終了時、数値が5以上なら精神力が5減少\n- ターン終了時に1減少",
       "summary": "",
       "undefined": "-"
+    },
+    {
+      "id": "VengeanceBookHeathcliff",
+      "name": "仕返し帳簿[ヒースクリフ]",
+      "desc": "- 最大値 : 30\n- 数値5につき、攻撃レベル +1, 防御レベル +1",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "MiddleFingerTattooID",
+      "name": "怨恨の刺青",
+      "desc": "- 最大値: 20\n- 数値1につき自分の基本スキルダメージ量 +1%",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "ScarletMothRodion",
+      "name": "緋色の蛾",
+      "desc": "- 最大値: 3\n- ターン終了時、体力最大値の数値%だけ体力を回復 (最小体力回復量: 1)\n- ターン終了時、精神力を数値だけ回復\n- ターン終了時に1減少",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
     }
   ]
 }
