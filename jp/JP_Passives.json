@@ -3437,11 +3437,11 @@
       "id": 1061712,
       "name": "傾聴していただかないと、ね？",
       "desc": "戦闘中、自分の[ChargeNoirAlly]回数を累計で10消耗するたびに[ChargeNoirAlly]1を得る\n\n[ReadyToListenHonglu]は1ターンにつき1のみ得られる\n- [TimeToListenHonglu]があれば、[ReadyToListenHonglu]は得られない\n\n自分の[ReadyToListenHonglu]が2なら、ターン終了時に全て消耗して次のターンに下記の効果を適用\n- [TimeToListenHonglu]2を得る\n- 全ての戦場にいる敵へ[WarinessHonglu]2を付与 (1ターンにつき1回、集中戦闘の場合は部位で判定)\n<style=\"highlight\">- 「案内放送」の使用前効果の使用回数を初期化</style>"
-    }
+    },
     {
       "id": 1061721,
       "name": "毛布を掛けてあげる",
       "desc": "このターン中、[SupportProtect]専用スキルを最初に使用した人格が、そのスキルの使用時に[Protection]1を得る (1ターンにつき1回)"
-    },
+    }
   ]
 }
