@@ -3346,7 +3346,7 @@
     {
       "id": 1031504,
       "name": "神の意志と価値が我らと共にあらん…。",
-      "desc": "自分以外のル・ノワール所属の味方人格が敵へ攻撃を開始する前に、自分が「審判！」でメインターゲットを優先して一方攻撃する (1ターンにつき1回)\n\n基本スキルの最後のコイン開始時、(自分の[ChargeNoirAlly]威力 + 対象の[NoirNailDonQuixote]÷2)だけ、そのコインの最終威力が増加 (最大5)\n\n自分に[OathFieldDonQuixote]があれば、基本スキル1/2/3のマッチ威力 +1/+2/+3\n\n[NoirNailDonQuixote]がある対象に[VibrationExplosion]が発生すると、自分と、自分以外で[Charge]回数が最も少ない味方[PersonalityCharge]1名の[Charge]回数が2増加 (1ターンにつき2回)",
+      "desc": "自分以外のル・ノワール所属の味方人格が敵へ攻撃スキルまたは反撃スキルを使用する前に、自分が「審判！」でメインターゲットを優先して一方攻撃する (1ターンにつき1回)\n\n基本スキルの最後のコイン開始時、(自分の[ChargeNoirAlly]威力 + 対象の[NoirNailDonQuixote]÷2)だけ、そのコインの最終威力が増加 (最大5)\n\n自分に[OathFieldDonQuixote]があれば、基本スキル1/2/3のマッチ威力 +1/+2/+3\n\n[NoirNailDonQuixote]がある対象に[VibrationExplosion]が発生すると、自分と、自分以外で[Charge]回数が最も少ない味方[PersonalityCharge]1名の[Charge]回数が2増加 (1ターンにつき2回)",
       "summary": "ル・ノワール所属の味方が攻撃する前に「審判！」を使用\n基本スキルの最後のコインの最終威力が増加[TabExplain]\n[OathFieldDonQuixote]があれば、基本スキルのマッチ威力が増加[TabExplain]\n[NoirNailDonQuixote]がある対象に[VibrationExplosion]時、[Charge]回数が増加",
       "flavor": "全てが不確かなこの世界で、我らを導き守るものはただ一つ、黒き神の御言葉。その御言葉が道となり、光となって我らを照らしたまえば、初めて我らに意味が与えられた。"
     },
@@ -3409,11 +3409,6 @@
       "desc": "自分の体力減少量が体力最大値の3%に相当するごとに、[ChargeRougeAlly]回数1を得る (ターンにつき最大20)\n\n自分の体力減少量が体力最大値の1.5%に相当するごとに、[NiddlePinGather]1を得る\n\n自分の基本スキルの体力減少効果では混乱せず、体力が1未満に減少しない (体力が1の場合、基本スキルの効果のうち体力消耗で発動する効果を受けられる)"
     },
     {
-      "id": 1071713,
-      "name": "ハンドメイド / ハンドステッチでやれ！！！",
-      "desc": "自分の体力減少量が体力最大値の3%に相当するごとに、[ChargeRougeAlly]回数1を得る (ターンにつき最大20)\n\n自分の体力減少量が体力最大値の1.5%に相当するごとに、[NiddlePinGather]1を得る\n\n自分の基本スキルの体力減少効果では混乱せず、体力が1未満に減少しない (体力が1の場合、基本スキルの効果のうち体力消耗で発動する効果を受けられる)\n\n自分の[NeedlekinAlly]が3のとき、自分の攻撃スキル終了時にランダムな敵へ「脇線の外側に縫い目が2本見えたらダブルニードル。失格！」スキルを使用"
-    },
-    {
       "id": 1071701,
       "name": "ステッチが均一すぎるだと？手縫いのピックステッチじゃないだと？集合！！！",
       "desc": "ターン終了時、[NeedlekinAlly]1を得る"
@@ -3431,17 +3426,22 @@
     {
       "id": 1061702,
       "name": "傾聴していただかないと、ね？",
-      "desc": "戦闘中、自分の[ChargeNoirAlly]回数を累計で10消耗するたびに[ChargeNoirAlly]1を得る\n\n[ReadyToListenHonglu]は1ターンにつき1のみ得られる\n- [TimeToListenHonglu]があれば、[ReadyToListenHonglu]は得られない\n\n自分の[ReadyToListenHonglu]が2なら、ターン終了時に全て消耗して次のターンに下記の効果を適用\n- [TimeToListenHonglu]2を得る\n- 全ての戦場にいる敵へ[WarinessHonglu]2を付与 (1ターンにつき1回、集中戦闘の場合は部位で判定)"
-    },
-    {
-      "id": 1061712,
-      "name": "傾聴していただかないと、ね？",
-      "desc": "戦闘中、自分の[ChargeNoirAlly]回数を累計で10消耗するたびに[ChargeNoirAlly]1を得る\n\n[ReadyToListenHonglu]は1ターンにつき1のみ得られる\n- [TimeToListenHonglu]があれば、[ReadyToListenHonglu]は得られない\n\n自分の[ReadyToListenHonglu]が2なら、ターン終了時に全て消耗して次のターンに下記の効果を適用\n- [TimeToListenHonglu]2を得る\n- 全ての戦場にいる敵へ[WarinessHonglu]2を付与 (1ターンにつき1回、集中戦闘の場合は部位で判定)\n<style=\"highlight\">- 「案内放送」の使用前効果の使用回数を初期化</style>"
+      "desc": "戦闘中、自分の[ChargeNoirAlly]回数を累計で10消耗するたびに[ChargeNoirAlly]威力1を得る\n\n[ReadyToListenHonglu]は1ターンにつき1のみ得られる\n- [TimeToListenHonglu]があれば、[ReadyToListenHonglu]は得られない\n\n自分の[ReadyToListenHonglu]が2なら、ターン終了時に全て消耗して次のターンに下記の効果を適用\n- [TimeToListenHonglu]2を得る\n- 全ての戦場にいる敵へ[WarinessHonglu]2を付与 (1ターンにつき1回、集中戦闘の場合は部位で判定)"
     },
     {
       "id": 1061721,
       "name": "毛布を掛けてあげる",
       "desc": "このターン中、[SupportProtect]専用スキルを最初に使用した人格が、そのスキルの使用時に[Protection]1を得る (1ターンにつき1回)"
+    },
+    {
+      "id": 1071713,
+      "name": "ハンドメイド / ハンドステッチでやれ！！！",
+      "desc": "自分の体力減少量が体力最大値の3%に相当するごとに、[ChargeRougeAlly]回数1を得る (ターンにつき最大20)\n\n自分の体力減少量が体力最大値の1.5%に相当するごとに、[NiddlePinGather]1を得る\n\n自分の基本スキルの体力減少効果では混乱せず、体力が1未満に減少しない (体力が1の場合、基本スキルの効果のうち体力消耗で発動する効果を受けられる)\n\n自分の[NeedlekinAlly]が3のとき、自分の攻撃スキル終了時にランダムな敵へ「脇線の外側に縫い目が2本見えたらダブルニードル。失格！」スキルを使用"
+    },
+    {
+      "id": 1061712,
+      "name": "傾聴していただかないと、ね？",
+      "desc": "戦闘中、自分の[ChargeNoirAlly]回数を累計で10消耗するたびに[ChargeNoirAlly]威力1を得る\n\n[ReadyToListenHonglu]は1ターンにつき1のみ得られる\n- [TimeToListenHonglu]があれば、[ReadyToListenHonglu]は得られない\n\n自分の[ReadyToListenHonglu]が2なら、ターン終了時に全て消耗して次のターンに下記の効果を適用\n- [TimeToListenHonglu]2を得る\n- 全ての戦場にいる敵へ[WarinessHonglu]2を付与 (1ターンにつき1回、集中戦闘の場合は部位で判定)\n<style=\"highlight\">- 「案内放送」の使用前効果の使用回数を初期化</style>"
     }
   ]
 }
